@@ -12,15 +12,22 @@ public class Input {
 // System.out.println("Hello : " +name_1+name2);
 
 // input integer values
-Scanner obj2 = new Scanner(System.in);
-System.out.println("Enter Numbers for Calculaton");
-int num1,num2;
-System.out.print("Enter number 1: ");
-num1=obj2.nextInt();
-System.out.print("Enter number 2: ");
-num2=obj2.nextInt();
-System.out.println("Addition is: "+(num1+num2));
-System.out.println("Multiplication is: "+num1*num2);
-System.out.println("Division is: "+num1/num2);
-    }
+ Scanner obj2 = new Scanner(System.in);
+// System.out.println("Enter Numbers for Calculaton");
+// int num1,num2;
+// System.out.print("Enter number 1: ");
+// num1=obj2.nextInt();
+// System.out.print("Enter number 2: ");
+// num2=obj2.nextInt();
+// System.out.println("Addition is: "+(num1+num2));
+// System.out.println("Multiplication is: "+num1*num2);
+// System.out.println("Division is: "+num1/num2);
+    
+// input Float values
+System.out.println("Change Celsius int fehrenheite:");
+float Cel;
+System.out.print("Enter Celsius value: ");
+Cel=obj2.nextFloat();
+System.out.print("Fehrenheite: " + ((Cel*9/5)+32));
+}
 }
