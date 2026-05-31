@@ -29,5 +29,6 @@ float Cel;
 System.out.print("Enter Celsius value: ");
 Cel=obj2.nextFloat();
 System.out.print("Fehrenheite: " + ((Cel*9/5)+32));
+obj2.close();
 }
 }

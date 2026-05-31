@@ -7,7 +7,7 @@ int num=0;
     while(num!=5){
         System.out.print("Enter number:");
         num=obj.nextInt();
-    }
+    }obj.close();
 
         }
 }
