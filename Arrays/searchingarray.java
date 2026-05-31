@@ -1,5 +1,6 @@
-public class searchingarray {
+package Arrays;
 
+public class searchingarray {
     public static void main(String[] args) {
         int[] numbers = {1, 2, 3, 4};
 //         for(int i=0; i <numbers.length;i++){

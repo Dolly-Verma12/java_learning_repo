@@ -1,3 +1,4 @@
+package Arrays;
 
 public class floor {
     static void floorfun(int[] arr ,int target){

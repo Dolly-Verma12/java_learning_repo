@@ -1,3 +1,4 @@
+package String;
 public class inversstring {
 // inverse  with string builder
 static void stringbuilder(String str){

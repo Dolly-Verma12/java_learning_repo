@@ -1,3 +1,4 @@
+package Arrays;
 import java.util.Scanner;
 public class Searching2d{
 

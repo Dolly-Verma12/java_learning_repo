@@ -1,3 +1,4 @@
+package String;
 public class TraverseString{
     public static void find(String name,char ele){
 for(int i =0; i< name.length(); i++ ){
