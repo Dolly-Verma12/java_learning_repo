@@ -1,4 +1,4 @@
-package program;
+
 public class que {
     static void fun(int[][] arr){  
 int index=-1;
