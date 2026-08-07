@@ -1,3 +1,4 @@
+package Arrays;
 public class Count{
 static int find(int [] A, int target){
    int[] ans={-1,-1};

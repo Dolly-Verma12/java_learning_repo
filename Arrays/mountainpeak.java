@@ -1,3 +1,4 @@
+ package Arrays;
  public class mountainpeak{
      static int fun(int[]array){
      int start =0;

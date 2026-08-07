@@ -1,5 +1,5 @@
+package Arrays;
 import java.util.Arrays;
-
 public class Findpositonelement {
     static int[] check(int[] array, int target){
         int[] ans = {-1,-1};

@@ -1,3 +1,4 @@
+package Arrays;
 public class searchinfinitearray {
     static int fun(int[]A, int t ){
         int start=0;

@@ -1,3 +1,4 @@
+package Arrays;
 public class que2 {
     static void question(char[]str, char target){
        int start=0;

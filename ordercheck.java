@@ -39,7 +39,7 @@ public class ordercheck {
         System.out.println("Element not in this array!!");
     }
     public static void main(String[] args){
-        int [] array={-1,2,2,3,5,6,7,8,9,10,23};//accending order 
+       // int [] array={-1,2,2,3,5,6,7,8,9,10,23};//accending order 
         int [] array2={23,12,11,9,8,7,6,5,4,3,2,1};
        int target=8;
     fun(array2,target);
