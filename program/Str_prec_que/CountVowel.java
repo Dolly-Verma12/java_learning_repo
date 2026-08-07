@@ -15,13 +15,13 @@ public class CountVowel {
 }
 class Count{
     static void fun(String N){
-        char[] V={'A','E','I','O','U','a','e','i','o','u'};
+        String V="aeiou";
          int count=0;
        for (int i=0;i<N.length();i++){
-           for(int j=0;j<V.length;j++){
-            if(N.charAt(i)==V[j]){
+         char ch=Character.toLowerCase(N.charAt(i));
+            if(V.indexOf(ch)!=-1){
                 count++;
-            }
+            
            }
        }System.out.println(count);
     }
