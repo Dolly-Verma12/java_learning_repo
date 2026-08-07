@@ -1,10 +1,11 @@
 package Str_prec_que;
 import java.util.Scanner;
 public class CountChr {
- static int fun(String N){
+ static int fun(String N,char ch){
    int count=0;
     for(int i=0;i<N.length();i++){
-       count++;
+        if (N.charAt(i)==ch)
+             count++;
     }
     return count;
  }  
@@ -14,8 +15,10 @@ public class CountChr {
     Scanner S= new Scanner(System.in);
     System.out.print("Enter your String: ");
     String Name=S.next();
-    System.out.println("Charector in String: ");
-     System.out.print(fun(Name));
+    System.out.print("Enter charactor to count in a string: ");
+    char ch=S.next().charAt(0);
+    System.out.print("Charector Number: ");
+     System.out.print(fun(Name,ch));
     
      S.close();
   }
