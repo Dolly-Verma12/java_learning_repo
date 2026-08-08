@@ -6,8 +6,7 @@ public class CountVowel {
   Scanner S=new Scanner(System.in);
   System.out.print("Enter Strings: ");
   String Name=S.nextLine();
-  Count ct=new Count();
-  ct.fun(Name);
+  Count.fun(Name);
     
 
   S.close();
