@@ -18,8 +18,7 @@ public class nonRepeatatingChar {
             break;
           }
       } 
-        System.out.println(ab);
-      
+        System.out.println(ab);     
     }
     public static void main(String[] args){
         Scanner s=new Scanner(System.in);
